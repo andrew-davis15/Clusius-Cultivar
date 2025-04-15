@@ -5,7 +5,11 @@
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "white-tulip" ]
+            "states": [ "tulipcrop" ]
+        },
+        {
+            "code": "color",
+            "states": [ "white", "red","orange","blue","pink","yellow" ]
         },
         {
             "code": "stage",
@@ -13,8 +17,8 @@
         }
     ],
     "creativeinventory": {
-        "general": [ "" ],
-        "plants": [ "" ]
+        "general": [ "*-tulipcrop-*" ],
+        "plants": [ "*-tulipcrop-*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
@@ -63,14 +67,14 @@
         "*-4": [
             {
                 "type": "item",
-                "code": "white-tulipbulb",
+                "code": "*-tulipbulb-{color}",
                 "quantity": { "avg": 0.99 }
             },
             {
                 "type": "block",
-                "code": "whitetulip",
+                "code": "tulip-{color}",
                 "quantity": {
-                    "avg": 3,
+                    "avg": 2,
                     "var": 1
                 }
             }
@@ -78,14 +82,14 @@
         "*-5": [
             {
                 "type": "item",
-                "code": "white-tulipbulb",
+                "code": "tulipbulb-{color}",
                 "quantity": { "avg": 1.2 }
             },
             {
                 "type": "item",
                 "code": "vegetable-turnip",
                 "quantity": {
-                    "avg": 7,
+                    "avg": 6,
                     "var": 1
                 }
             }
