@@ -1,0 +1,159 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"color": [ 32, 32 ]
+	},
+	"textures": {
+		"color": "/block/plant/crop/tulips/tulips_5_white.png"
+	},
+	"elements": [
+		{
+			"name": "stem n",
+			"from": [ 8.0, 8.0, 8.0 ],
+			"to": [ 8.0, 8.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 8.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "stem-n-1",
+					"from": [ -3.0, -8.0, -5.0 ],
+					"to": [ 3.0, 6.0, -4.99 ],
+					"rotationOrigin": [ -2.0, -8.0, -5.0 ],
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						}
+					}
+				},
+				{
+					"name": "stem-n-2",
+					"from": [ 2.0, -8.0, 4.0 ],
+					"to": [ 8.0, 6.0, 4.01 ],
+					"rotationOrigin": [ 3.0, -8.0, 6.0 ],
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						}
+					}
+				},
+				{
+					"name": "stem-n-3",
+					"from": [ -7.0, -8.0, 4.0 ],
+					"to": [ -1.0, 6.0, 4.01 ],
+					"rotationOrigin": [ -6.0, -8.0, 6.0 ],
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 0.0, 0.0, 6.0, 0.5 ]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "stem e",
+			"from": [ 6.0, 0.0, 4.0 ],
+			"to": [ 6.0, 0.0, 4.0 ],
+			"rotationOrigin": [ 6.0, 0.0, 4.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "stem-e-1",
+					"from": [ -4.0, 0.0, 18.0 ],
+					"to": [ 2.0, 14.0, 18.01 ],
+					"rotationOrigin": [ -9.0, 0.0, 7.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						}
+					}
+				},
+				{
+					"name": "stem-e-2",
+					"from": [ -11.0, 0.0, 23.0 ],
+					"to": [ -5.0, 14.0, 23.01 ],
+					"rotationOrigin": [ -8.0, 0.0, 8.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						}
+					}
+				},
+				{
+					"name": "stem-e-3",
+					"from": [ -12.0, 0.0, 15.0 ],
+					"to": [ -6.0, 14.0, 15.01 ],
+					"rotationOrigin": [ -9.0, 0.0, 8.0 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": {
+							"texture": "#color",
+							"uv": [ 13.0, 18.0, 19.0, 32.0 ]
+						},
+						"up": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						},
+						"down": {
+							"texture": "#null",
+							"uv": [ 19.0, 18.0, 25.0, 18.5 ]
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,15 +1,15 @@
 {
     "code": "crop",
-    "class": "BlockCrop",
+    "class": "clusiuscultivar.BlockCropVariable",
     "behaviors": [ { "name": "Unstable" } ],
     "variantgroups": [
         {
             "code": "type",
-            "states": [ "tulipcrop" ]
+            "states": [ "tulip"]
         },
         {
             "code": "color",
-            "states": [ "white", "red","orange","blue","pink","yellow" ]
+            "states": [ "orange", "pink","red","white","yellow" ]
         },
         {
             "code": "stage",
@@ -17,21 +17,29 @@
         }
     ],
     "creativeinventory": {
-        "general": [ "*-tulipcrop-*" ],
-        "plants": [ "*-tulipcrop-*" ]
+        "Clusius Cultivar": [ "*-tulip-*" ]
     },
     "renderpass": "OpaqueNoCull",
     "shapeByType": {
-        "*-3": { "base": "block/plant/crop/turnip/stage3" },
-        "*-4": { "base": "block/plant/crop/turnip/stage4" },
-        "*-5": { "base": "block/plant/crop/turnip/stage5" },
-        "*": { "base": "block/plant/crop/turnip/stage1to2" }
+        "*-1": { "base": "block/plant/crop/tulip/stage1" },
+        "*-2": { "base": "block/plant/crop/tulip/stage2" },
+        "*-3": { "base": "block/plant/crop/tulip/stage3" },
+        "*-4": { "base": "block/plant/crop/tulip/stage4" },
+        "*-5": { "base": "block/plant/crop/tulip/stage5" }
+    },
+    "texturesByType": {
+        "*-5": {
+            "color": {
+                "base": "block/plant/crop/tulips/tulips_5_{color}.png"
+                }
+            },
+        "*": {
+            "color": {
+                "base": "block/plant/crop/tulips/tulips_1-4_{color}.png"
+                }
+            }
     },
     "blockmaterial": "Plant",
-    "textures": {
-        "s": { "base": "block/plant/crop/turnip/s{stage}" },
-        "e": { "base": "block/plant/crop/turnip/e{stage}" }
-    },
     "attributes": {
         "foodTags": [ "nibbleCrop" ],
         "butterflyFeedByType": {
@@ -67,38 +75,52 @@
         "*-4": [
             {
                 "type": "item",
-                "code": "*-tulipbulb-{color}",
+                "code": "tulipbulb-{color}",
                 "quantity": { "avg": 0.99 }
             },
             {
-                "type": "block",
-                "code": "tulip-{color}",
-                "quantity": {
-                    "avg": 2,
-                    "var": 1
-                }
+                "type": "item",
+                "code": "tulipseeds-{color}",
+                "quantity": { "avg": 0.99 }
             }
         ],
         "*-5": [
             {
                 "type": "item",
-                "code": "tulipbulb-{color}",
-                "quantity": { "avg": 1.2 }
+                "code": "tulipbulb-orange",
+                "quantity": { "avg": 3.2 }
             },
             {
                 "type": "item",
-                "code": "vegetable-turnip",
-                "quantity": {
-                    "avg": 6,
-                    "var": 1
-                }
+                "code": "tulipbulb-pink",
+                "quantity": { "avg": 3.2 }
+            },
+            {
+                "type": "item",
+                "code": "tulipbulb-red",
+                "quantity": { "avg": 3.2 }
+            },
+            {
+                "type": "item",
+                "code": "tulipbulb-white",
+                "quantity": { "avg": 3.2 }
+            },
+            {
+                "type": "item",
+                "code": "tulipbulb-yellow",
+                "quantity": { "avg": 3.2 }
+            },
+            {
+                "type": "item",
+                "code": "tulipseeds-{color}",
+                "quantity": { "avg": 1.2 }
             }
         ],
         "*": [
             {
                 "type": "item",
-                "code": "seeds-turnip",
-                "quantity": { "avg": 0.7 }
+                "code": "tulipseeds-{color}",
+                "quantity": { "avg": 0.70 }
             }
         ]
     },

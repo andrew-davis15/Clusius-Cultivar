@@ -1,9 +1,9 @@
 {
     "type": "code",
-    "name": "The Clusius Cultivation",
-    "modid": "clusius",
+    "name": "Clusius Cultivar",
+    "modid": "clusiuscultivar",
     "description": "Adding Tulips to Vintage Story",
     "authors": [ "Drex_", "sethinal"],
     "version": "1.0.0",
-    "gameversions": [ "1.20.7+" ]
+    "gameversions": [ "1.20.8+" ]
 }
